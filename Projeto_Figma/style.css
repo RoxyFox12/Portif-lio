@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital@0;1&display=swap');*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* height: 100vh; */
+    box-sizing: border-box;
+    background-color: #B6B8FF /*182,184,255*/;
+    color: #1B365C /*54,101,181*/;
+    
+}
+.CABECA{
+
+}
+.CABECA__MENU{
+
+}
+.CABECA__MENU__BOTAO{
+    
+}
+.DESTAQUE_TITULO{
+    color: #070C14;
+}
+.APRESENTACAO{
+    padding: 8% 18%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.APRESENTACAO__TEXTO{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+.APRESENTACAO__TEXTO__TITULO{
+    font-size: 36px;
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.APRESENTACAO__TEXTO__P{
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.APRESENTACAO__LINK{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+}
+.APRESENTACAO__LINK__SUB{
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    color: #070C14;
+}
+.APRESENTACAO__LINK__BOTAO{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    /* background-color: #3665B5; */
+    border: 5px solid #3665b5;
+    text-align: center;
+    width: 378px;
+    padding: 21.5px 0;
+    border-radius: 8px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #070C14;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.APRESENTACAO__LINK__BOTAO:hover{
+    cursor: pointer;
+    background-color:#8084f3 ;
+    padding: 3%;
+}
+.RODAPE{
+    padding: 24px;
+    color: #070C14;
+    background-color: #3665b5;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+
+}
