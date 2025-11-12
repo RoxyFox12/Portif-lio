@@ -11,19 +11,25 @@ body {
     
 }
 .CABECA{
-
+    padding: 2% 0 0 18%;
 }
 .CABECA__MENU{
+    display: flex;
+    gap: 80px;
 
 }
 .CABECA__MENU__BOTAO{
-    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #070C14;
+
 }
 .DESTAQUE_TITULO{
     color: #070C14;
 }
 .APRESENTACAO{
-    padding: 8% 18%;
+    padding: 5% 18%;
     display: flex;
     align-items: center;
     justify-content: space-between;
