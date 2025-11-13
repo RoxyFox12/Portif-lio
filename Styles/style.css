@@ -4,18 +4,19 @@
 }
 
 :root{
-    --cor-fundo: #b6b8ff;
-    --cor-primaria: #1B365C;
+    --cor-fundo: #b6b8ff /*182,184,255*/;
+    --cor-primaria: #1B365C /*54,101,181*/;
     --cor-secundaria: #3665b5;
     --cor-destaque: #070C14;
+    --cor-hover:#8084f3;
 
 }
 
 body {
     /* height: 100vh; */
     box-sizing: border-box;
-    background-color: #B6B8FF /*182,184,255*/;
-    color: #1B365C /*54,101,181*/;
+    background-color: var(--cor-fundo) ;
+    color: var(--cor-primaria);
     
 }
 .CABECA{
@@ -30,11 +31,11 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 600;
-    color: #070C14;
+    color: var(--cor-destaque);
     text-decoration: none;
 }
 .DESTAQUE_TITULO{
-    color: #070C14;
+    color: var(--cor-destaque);
 }
 .APRESENTACAO{
     padding: 5% 18%;
@@ -74,22 +75,21 @@ body {
     font-weight: 400;
     font-style: normal;
     font-size: 24px;
-    color: #070C14;
+    color: var(--cor-destaque);
 }
 .APRESENTACAO__LINK__BOTAO{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 16px;
-    /* background-color: #3665B5; */
-    border: 5px solid #3665b5;
+    border: 5px solid var(--cor-secundaria);
     text-align: center;
     width: 378px;
     padding: 21.5px 0;
     border-radius: 8px;
     font-size: 24px;
     text-decoration: none;
-    color: #070C14;
+    color: var(--cor-destaque);
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
@@ -97,13 +97,13 @@ body {
 }
 .APRESENTACAO__LINK__BOTAO:hover{
     cursor: pointer;
-    background-color:#8084f3 ;
+    background-color:var(--cor-hover) ;
     padding: 3%;
 }
 .RODAPE{
     padding: 24px;
-    color: #070C14;
-    background-color: #3665b5;
+    color: var(--cor-destaque);
+    background-color: var(--cor-secundaria);
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
