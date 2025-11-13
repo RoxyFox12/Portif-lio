@@ -3,6 +3,14 @@
     padding: 0;
 }
 
+:root{
+    --cor-fundo: #b6b8ff;
+    --cor-primaria: #1B365C;
+    --cor-secundaria: #3665b5;
+    --cor-destaque: #070C14;
+
+}
+
 body {
     /* height: 100vh; */
     box-sizing: border-box;
