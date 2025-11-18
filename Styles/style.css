@@ -48,7 +48,7 @@ body {
     justify-content: space-between;
 }
 .APRESENTACAO__TEXTO{
-    width: 38.44rem;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
@@ -88,7 +88,7 @@ body {
     gap: 1rem;
     border: .31rem solid var(--cor-secundaria);
     text-align: center;
-    width: 23.63rem;
+    width: 50%;
     padding: 1.34rem 0;
     border-radius: .5rem;
     font-size: 1.5rem;
@@ -104,6 +104,10 @@ body {
     background-color:var(--cor-hover) ;
     padding: 3%;
 }
+.APRESENTACAO__IMG{
+    width: 50%;
+}
+
 .RODAPE{
     padding: 1.5rem;
     color: var(--cor-destaque);
