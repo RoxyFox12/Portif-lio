@@ -121,6 +121,14 @@ body {
 }
 
 @media (max-width:1200px) {
+    .CABECA {
+        padding: 10% ;
+    }
+
+    .CABECA__MENU {
+        justify-content: center;
+    }
+
     .APRESENTACAO {
         flex-direction: column-reverse;
     }
